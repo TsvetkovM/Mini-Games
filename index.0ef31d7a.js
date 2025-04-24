@@ -1,2 +1,0 @@
-!function(){var e=document.getElementById("subscriptionModal"),n=document.getElementById("subscribeBtn"),t=document.getElementById("closeModal");n.addEventListener("click",(function(){e.style.display="flex"})),t.addEventListener("click",(function(){e.style.display="none"})),window.addEventListener("click",(function(n){n.target===e&&(e.style.display="none")}))}();
-//# sourceMappingURL=index.0ef31d7a.js.map
