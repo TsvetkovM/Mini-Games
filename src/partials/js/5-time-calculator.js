@@ -1,32 +1,3 @@
-    // body {
-    //   font-family: Arial, sans-serif;
-    //   display: flex;
-    //   flex-direction: column;
-    //   align-items: center;
-    //   margin-top: 50px;
-    // }
-    // input {
-    //   padding: 10px;
-    //   font-size: 16px;
-    //   width: 200px;
-    // }
-    // button {
-    //   padding: 10px;
-    //   font-size: 16px;
-    //   margin-left: 10px;
-    // }
-    // .result {
-    //   margin-top: 20px;
-    //   font-size: 20px;
-    // }
- 
-  {/* <h1>Калькулятор часу</h1>
-  <div>
-    <input type="number" id="milliseconds" placeholder="Введіть мілісекунди">
-    <button onclick="convertTime()">Перевести</button>
-  </div>
-  <div class="result" id="result"></div> */}
-
     function convertTime() {
       const ms = parseInt(document.getElementById("milliseconds").value);
       if (isNaN(ms) || ms < 0) {

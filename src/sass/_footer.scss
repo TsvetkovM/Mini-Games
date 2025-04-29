@@ -1,3 +1,22 @@
+// .footer-image{
+//   width: 165;
+//   height: 70;
+//   top: 3357px;
+//   left: 175px;
+// }
+// .footer-info{
+//   width: 207;
+// height: 100;
+// top: 3343px;
+// left: 525px;
+// font-family: Montserrat Alternates;
+// font-weight: 400;
+// font-size: 12px;
+// line-height: 170%;
+// letter-spacing: 0%;
+// color: black;
+// }
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,7 +28,10 @@ align-items: center;
 padding: 40px;
 flex-wrap: wrap;
 }
-
+.container-footer{
+  display: flex;
+  justify-content: space-around;
+}
 .footer-logo {
 display: flex;
 align-items: center;
@@ -19,11 +41,6 @@ align-items: center;
 height: 50px;
 margin-right: 10px;
 }
-
-.footer-info {
-max-width: 300px;
-}
-
 .footer-subscribe {
 display: flex;
 flex-direction: column;
@@ -90,4 +107,141 @@ width: 40px;
 height: 40px;
 margin: 10px;
 }
+// .footer-info {
+//   display: flex;
+// }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-logo {
+display: flex;
+align-items: center;
+}
+
+.footer-logo img {
+height: 50px;
+margin-right: 10px;
+}
+
+
+
+.container-footer{
+  display: flex;
+}
+.footer-text{
+  width: 207;
+height: 100;
+top: 3343px;
+left: 525px;
+font-family: Montserrat Alternates;
+font-weight: 400;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+
+// // перевір в який рік ти народився
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    input[type="number"] {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 20px 0 0 20px;
+      width: 200px;
+      font-size: 16px;
+      outline: none;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background-color: black;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #output {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .green {
+      color: green;
+    }
+    .red {
+      color: red;
+    }
+
+//     // калькулятор часу
+
+        body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 20px;
+    }
