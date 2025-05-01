@@ -1,18 +1,42 @@
-function openModal() {
-    document.getElementById('modal').style.display = 'block';
-    document.getElementById('overlay').style.display = 'block';
-}
-
 function closeModal() {
     document.getElementById('modal').style.display = 'none';
     document.getElementById('overlay').style.display = 'none';
 }
 
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector(".backdrop-is-hidden").style.display = "flex";
+});
 
-function submitName() {
-    const name = document.getElementById('nameInput').value;
-    if (name) {
-        document.getElementById('greeting').innerText = `Вітаємо, ${name}!`;
+document.querySelector("[data-modal-close]").addEventListener("click", function () {
+    document.querySelector(".backdrop-is-hidden").style.display = "none";
+}); 
+
+
+let userName = ""; 
+
+document.querySelector(".greeting-modal-input-save").addEventListener("click", function () {
+    userName = document.querySelector("#nameInput").value.trim(); 
+    
+    if (userName !== "") {
+        updateHeaderGreeting();
+        document.querySelector(".backdrop-is-hidden").style.display = "none";
     }
-    closeModal();
+});
+
+
+function updateHeaderGreeting() {
+    const headerExtras = document.querySelector(".header-extras");
+    
+    const oldGreeting = document.querySelector(".header-greeting");
+    if (oldGreeting) {
+        oldGreeting.remove();
+    }
+    const greetingText = document.createElement("p");
+    greetingText.classList.add("header-greeting");
+    greetingText.textContent = `Вітаємо, ${userName}!`;
+    
+    headerExtras.appendChild(greetingText);
 }
+
+
+
