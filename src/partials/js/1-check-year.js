@@ -33,12 +33,7 @@
 //     }
 
 
-{/* <h2>Перевір в який рік ти народився</h2>
 
-<input type="number" id="inputEl" placeholder="Введіть рік народження">
-<button id="btn">&#128269;</button>
-
-<div id="output"></div> */}
 
 
 const btn = document.getElementById('btn');

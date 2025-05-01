@@ -22,12 +22,7 @@
 
 
 
-{/* <h1>Калькулятор часу</h1>
-<div>
-<input type="number" id="milliseconds" placeholder="Введіть мілісекунди">
-<button onclick="convertTime()">Перевести</button>
-</div>
-<div class="result" id="result"></div> */}
+
 
 
      function convertTime() {
