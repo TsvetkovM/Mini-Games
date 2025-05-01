@@ -3,7 +3,8 @@
     margin-left: 175px;
 }
 .header-logo{
-    height: 60px;
+    height: 75px;
+    width: 55px;
 }
 .header-logo-items{
     gap: 9px;
@@ -43,10 +44,14 @@
 .select-style-interactive:hover{
     color: #F1F1F1;
 }
-
+.select-style-interactive:active{
+    background-color: red;
+}
 .header-extras {
-    padding-top: 9px;
-    padding-left: 361px;
+    gap: 51px;
+    align-items: center;
+    display: flex;
+    padding-left: 301px;
 }
 
 
@@ -67,9 +72,15 @@
     height: 20px;
     position: absolute;
     background: #FFFFFF;
-    border: 0.5px #000000;
+    border: 0.7px solid #000000;
     border-radius: 180px;
     transition: 0.3s;
+    background-image: url('../images/sun.svg');
+    background-size: cover;
+    background-size: 15.03px 14.67px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .input-darkmode {
@@ -81,4 +92,7 @@
 .input-darkmode:checked+.label-darkmode:after {
     transform: translateX(100%);
     background: #000000;
+    background-image: url('/src/images/moon.svg');
+    background-size: cover;
+
 }
