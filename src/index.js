@@ -13,6 +13,7 @@ import './partials/js/10-choose-scientists'
 import './partials/js/subscribtion-modal'
 
 const gameContainerEl = document.querySelector(".js-games")
+
 const games = [
     {
     id: 1,
@@ -68,19 +69,28 @@ const games = [
     category: 'acquaintance',
     
     },
-    {
-    id: 10,
-    name: 'Вчений',
-    category: 'acquaintance',
+   
+    ];
     
-    },
-    ]
-
 const list = games.map((game) => {
-    return `<li id=${game.id}>
+    return `<li id=${game.id} class = "main_lists">
       <h2>${game.name}</h2>
       <hr>
     </li>`;
   }).join("");
   
 gameContainerEl.insertAdjacentHTML('beforeend', list);
+
+const rockPaperScissors = document.getElementById("3");
+    rockPaperScissors.innerHTML = (`
+      
+        <h2 class = "RPS"> Камінь-Ножиці-Папір </h2>
+       
+        <button class="rock" ></button>
+        <button class="scissors" ></button>
+        <button class="paper" ></button>
+        
+     `);
+
+
+     

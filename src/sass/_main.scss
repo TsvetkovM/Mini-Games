@@ -1,9 +1,52 @@
-.main{
+.main {
         display: flex;
         justify-content: center;
         width: 1090px;
         height: 3202px;
         margin-top: 36px;
+        margin-bottom: 36px;
         margin-left: 277px;
         margin-right: 277px;
 }
+.js-games{
+    text-align: center;
+    
+}
+.main_lists{
+    padding-bottom: 18px;
+   padding-top: 18px;
+}
+.RPS{
+    padding-bottom: 10px;
+}
+
+.rock{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('../images/stone 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.paper{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('../images/paper 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scissors{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: black;
+    background-image: url('../images/scissors 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
