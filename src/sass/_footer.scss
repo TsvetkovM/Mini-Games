@@ -1,40 +1,37 @@
-// .footer-image{
-//   width: 165;
-//   height: 70;
-//   top: 3357px;
-//   left: 175px;
-// }
-// .footer-info{
-//   width: 207;
-// height: 100;
-// top: 3343px;
-// left: 525px;
-// font-family: Montserrat Alternates;
-// font-weight: 400;
-// font-size: 12px;
-// line-height: 170%;
-// letter-spacing: 0%;
-// color: black;
-// }
+.footer-image{
+  width: 165;
+  height: 70;
+  top: 3357px;
+  left: 175px;
+}
+.footer-info{
+  width: 207;
+height: 100;
+top: 3343px;
+left: 525px;
+font-family: Montserrat Alternates;
+font-weight: 400;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: 0%;
+color: black;
+}
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}footer {
+footer {
 background-color: #f8f8f8;
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 40px;
-flex-wrap: wrap;
+// flex-wrap: wrap; 
 }
 .container-footer{
-  display: flex;
-  justify-content: space-around;
+  // display: flex;
+  // justify-content: space-around;
 }
 .footer-logo {
-display: flex;
-align-items: center;
+// display: flex;
+// align-items: center;
 }
 
 .footer-logo img {
@@ -42,9 +39,9 @@ height: 50px;
 margin-right: 10px;
 }
 .footer-subscribe {
-display: flex;
-flex-direction: column;
-align-items: flex-end;
+// display: flex;
+// flex-direction: column;
+// align-items: flex-end;
 }
 
 .footer-subscribe input[type="email"] {
@@ -73,8 +70,8 @@ top: 0;
 width: 100vw;
 height: 100vh;
 background-color: rgba(0, 0, 0, 0.5);
-justify-content: center;
-align-items: center;
+// justify-content: center;
+// align-items: center;
 }
 
 .modal-content {
@@ -96,9 +93,9 @@ cursor: pointer;
 }
 
 .modal-icons {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+// display: flex;
+// justify-content: space-between;
+// flex-wrap: wrap;
 margin-top: 20px;
 }
 
@@ -112,55 +109,9 @@ margin: 10px;
 // }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-logo {
-display: flex;
-align-items: center;
+// display: flex;
+// align-items: center;
 }
 
 .footer-logo img {
@@ -171,7 +122,7 @@ margin-right: 10px;
 
 
 .container-footer{
-  display: flex;
+  // display: flex;
 }
 .footer-text{
   width: 207;
@@ -188,11 +139,7 @@ color: #000000;
 
 
 // // перевір в який рік ти народився
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      margin-top: 100px;
-    }
+
     input[type="number"] {
       padding: 10px;
       border: 2px solid #ccc;
@@ -224,13 +171,6 @@ color: #000000;
 
 //     // калькулятор часу
 
-        body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-    }
     input {
       padding: 10px;
       font-size: 16px;
