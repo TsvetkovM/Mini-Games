@@ -1,20 +1,38 @@
 <div class="header-items flex">
-    <img class="header-logo" src="/src/images/Logo.svg" alt="Logo">
+    <div class="header-logo-items flex">
+        <img class="header-logo" src="/src/images/Logo.svg" alt="Logo">
+        <div class="header-logo-text">
+            <p class="header-logo-coding">Coding</p> 
+            <p class="header-logo-magic">Magic</p>
+        </div>
+    </div>
     <menu class="header-menu">
         <nav class="header-menu-navigation">
             <ul class="header-menu-navigation-list flex">
                 <li class="header-menu-navigation-list-item">
-                    <label for="option-select">Інтерактив:</label>
-                    <select name="options" id="option-select">
-                        <option value="">Оберіть</option>
-                        <option value="numerical">Числовий</option>
-                        <option value="game">Ігровий</option>
-                        <option value="introductory">Ознайомчий</option>
+                    <select class="select-style" name="options" id="option-select">
+                        <option class="select-style-interactive" value="interactive">Інтерактив</option>
+                        <option class="select-style-interactive" value="numerical">Числовий</option>
+                        <option class="select-style-interactive" value="game">Ігровий</option>
+                        <option class="select-style-interactive" value="introductory">Ознайомчий</option>
                     </select>
                 </li>
-                <li class="header-menu-navigation-list-item"><a href="">Наша команда</a></li>
-                <li class="header-menu-navigation-list-item"><a href="">Контакти</a></li>
+                <li class="header-menu-navigation-list-item"><a href="#">Наша команда</a></li>
+                <li class="header-menu-navigation-list-item"><a href="#">Контакти</a></li>
             </ul>
         </nav>
     </menu>
+    <div class="header-extras">
+        <input class="input-darkmode" type="checkbox" id="darkmode-toggle" />
+        <label class="label-darkmode" for="darkmode-toggle"></label>
+    </div>
 </div>
+<div id="game-container">
+    <h1>Вгадай число від 1 до 10</h1>
+    <input type="number" id="userInput" min="1" max="10">
+    <button id="checkButton">Перевірити</button>
+    <p id="result"></p>
+</div>
+
+
+

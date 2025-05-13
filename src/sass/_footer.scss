@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
   margin: 0;
    font-family: Arial, sans-serif;
@@ -10,11 +11,15 @@
 flex-wrap: wrap;
  }
 .footer-img{
+=======
+.footer-image{
+>>>>>>> main
   width: 165;
   height: 70;
   top: 3357px;
   left: 175px;
 }
+<<<<<<< HEAD
 .footer-info{
   width: 207;
   height: 100;
@@ -39,6 +44,41 @@ flex-wrap: wrap;
   letter-spacing: 0%;
   color: #000000;
 }
+=======
+// .footer-info{
+//   width: 207;
+// height: 100;
+
+// font-family: Montserrat Alternates;
+// font-weight: 400;
+// font-size: 12px;
+// letter-spacing: 0%;
+// color: black;
+// }
+
+footer {
+background-color: #f8f8f8;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+// flex-wrap: wrap; 
+}
+// .container-footer{
+//   display: flex;
+//   justify-content: space-around;
+// }
+// .footer-logo {
+// display: flex;
+// align-items: center;
+// }
+
+.footer-logo img {
+height: 50px;
+margin-right: 10px;
+}
+
+>>>>>>> main
 .footer-subscribe {
 display: flex;
 flex-direction: column;
@@ -61,6 +101,7 @@ background-color: black;
 color: white;
 cursor: pointer;
 }
+<<<<<<< HEAD
 // .footer-subcribe-input{
 //   width: 204;
 //   height: 35;
@@ -86,17 +127,28 @@ cursor: pointer;
 
 
 // }
+=======
+
+>>>>>>> main
 .modal {
 display: none;
 position: fixed;
 z-index: 1000;
 left: 0;
 top: 0;
+<<<<<<< HEAD
 width: 100vw;
 height: 100vh;
 background-color: rgba(0, 0, 0, 0.5);
 justify-content: center;
 align-items: center;
+=======
+width: 100px;
+height: 100px;
+background-color: rgba(0, 0, 0, 0.5);
+// justify-content: center;
+// align-items: center;
+>>>>>>> main
 }
 
 .modal-content {
@@ -118,9 +170,15 @@ cursor: pointer;
 }
 
 .modal-icons {
+<<<<<<< HEAD
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
+=======
+// display: flex;
+// justify-content: space-between;
+// flex-wrap: wrap;
+>>>>>>> main
 margin-top: 20px;
 }
 
@@ -129,6 +187,7 @@ width: 40px;
 height: 40px;
 margin: 10px;
 }
+<<<<<<< HEAD
 // .footer-subcribe-text{
 //   width: 254;
 //   height: 7;
@@ -193,3 +252,113 @@ margin: 10px;
 
 
 
+=======
+
+// .footer-info {
+//   display: flex;
+// }
+
+
+// .footer-logo {
+// display: flex;
+// align-items: center;
+// }
+
+.footer-logo img {
+height: 50px;
+margin-right: 10px;
+}
+
+
+
+// .container-footer{
+//   display: flex;
+// }
+.footer-text{
+  width: 207;
+height: 100;
+top: 3343px;
+left: 525px;
+font-family: Montserrat Alternates;
+font-weight: 400;
+font-size: 12px;
+line-height: 170%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+
+// // перевір в який рік ти народився
+
+    input[type="number"] {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 20px 0 0 20px;
+      width: 200px;
+      font-size: 16px;
+      outline: none;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background-color: black;
+      color: white;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    #output {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .green {
+      color: green;
+    }
+    .red {
+      color: red;
+    }
+
+//     // калькулятор часу
+
+    input {
+      padding: 10px;
+      font-size: 16px;
+      width: 200px;
+    }
+    button {
+      padding: 10px;
+      font-size: 16px;
+      margin-left: 10px;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+  //  3 number
+   
+  input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+  }
+  #result2 {
+    margin-top: 20px;
+    font-size: 20px;
+    visibility: hidden; /* сховано, поки не буде готовий результат */
+  }
+  
+
+
+    
+
+
+
+  
+  
+>>>>>>> main

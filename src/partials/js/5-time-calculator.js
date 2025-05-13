@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // body {
 //   font-family: Arial, sans-serif;
 //   display: flex;
@@ -26,6 +27,9 @@
 
 
      function convertTime() {
+=======
+    function convertTime() {
+>>>>>>> main
       const ms = parseInt(document.getElementById("milliseconds").value);
       if (isNaN(ms) || ms < 0) {
         document.getElementById("result").textContent = "Введіть коректне число мілісекунд.";

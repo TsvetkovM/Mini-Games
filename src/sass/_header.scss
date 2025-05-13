@@ -1,9 +1,14 @@
 .header-items {
+    padding-top: 21px;
     margin-left: 175px;
 }
+.header-logo{
+    height: 75px;
+    width: 55px;
+}
+.header-logo-items{
+    gap: 9px;
 
-.header-logo {
-    padding-top: 21px;
 }
 
 .header-menu-navigation-list {
@@ -11,10 +16,87 @@
 }
 
 .header-menu {
-    padding-top: 32px;
+    padding-top: 11px;
+    padding-left: 81px;
 }
 
+.header-logo-coding{
+    width: 44px;
+    height: 15px;
+
+}
+.header-logo-magic{
+    font-family: "Sacramento";
+    width: 30px;
+    height: 18px;
+    padding-left: 20px;
+}
 .header-menu-navigation {
     font-family: 'Montserrat Alternates';
 }
+.select-style{
+    border: none;
+}
+.select-style-interactive{
+    text-align: center;
+    background-color: transparent;
+}
+.select-style-interactive:hover{
+    color: #F1F1F1;
+}
+.select-style-interactive:active{
+    background-color: red;
+}
+.header-extras {
+    gap: 51px;
+    align-items: center;
+    display: flex;
+    padding-left: 301px;
+}
+
+
+.label-darkmode {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    display: block;
+    background: #7A7A7A;
+    border-radius: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.label-darkmode:after {
+    content: " ";
+    width: 20.5px;
+    height: 20px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 0.7px solid #000000;
+    border-radius: 180px;
+    transition: 0.3s;
+    background-image: url('../images/sun.svg');
+    background-size: cover;
+    background-size: 15.03px 14.67px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.input-darkmode {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.input-darkmode:checked+.label-darkmode:after {
+    transform: translateX(100%);
+    background: #000000;
+    background-image: url('/src/images/moon.svg');
+    background-size: cover;
+
+}
+
+
+
 

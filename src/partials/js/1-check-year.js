@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //  body {
 //       font-family: Arial, sans-serif;
 //       text-align: center;
@@ -36,6 +37,8 @@
 
 
 
+=======
+>>>>>>> main
 const btn = document.getElementById('btn');
 const inputEl = document.getElementById('inputEl');
 const outputEl = document.getElementById('output');
@@ -43,6 +46,10 @@ const outputEl = document.getElementById('output');
 btn.addEventListener('click', () => {
   const year = Number(inputEl.value);
   
+<<<<<<< HEAD
+=======
+  
+>>>>>>> main
   inputEl.classList.remove('green', 'red');
   outputEl.classList.remove('green', 'red');
 
@@ -63,4 +70,8 @@ btn.addEventListener('click', () => {
     outputEl.textContent = 'Ви народилися у звичайний рік!';
     console.log('Звичайний рік');
   }
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> main
