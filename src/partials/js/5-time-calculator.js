@@ -1,4 +1,35 @@
+<<<<<<< HEAD
+// body {
+//   font-family: Arial, sans-serif;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   margin-top: 50px;
+// }
+// input {
+//   padding: 10px;
+//   font-size: 16px;
+//   width: 200px;
+// }
+// button {
+//   padding: 10px;
+//   font-size: 16px;
+//   margin-left: 10px;
+// }
+// .result {
+//   margin-top: 20px;
+//   font-size: 20px;
+// }
+
+
+
+
+
+
+     function convertTime() {
+=======
     function convertTime() {
+>>>>>>> main
       const ms = parseInt(document.getElementById("milliseconds").value);
       if (isNaN(ms) || ms < 0) {
         document.getElementById("result").textContent = "Введіть коректне число мілісекунд.";
