@@ -93,6 +93,7 @@ const styles = `
 `;
 
 
+
 const styleTag = document.createElement("style");
 styleTag.innerHTML = styles;
 document.head.appendChild(styleTag);
