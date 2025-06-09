@@ -1,19 +1,79 @@
 .modal {
-    display: none;
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modal.is-open {
-    display: flex;
-  }
-  
-  .modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-  }
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
 
+.modal.is-open {
+  display: flex;
+}
+
+.footer-modal-content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 463px;
+  height: 245px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.footer-modal-close {
+  top: 10px;
+  padding-left: 385px;
+  position: relative;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.footer-modal-text {
+  top: 23px;
+  position: relative;
+  font-family: Inter;
+  font-size: 20px;
+
+
+}
+
+.footer-modal-image-sword {
+  top: 330px;
+  right: 920px;
+  width: 30px;
+  height: 30px;
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+.footer-modal-image-gamepad {
+  right: 570px;
+  top: 330px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+.footer-modal-image-puzzle {
+  right: 870px;
+  top: 416px;
+  width: 30px;
+  height: 30px;
+  transform: scaleX(-1);
+  position: absolute;
+}
+
+.footer-modal-image-tic-tac-toe {
+  right: 600px;
+  top: 416px;
+  width: 30px;
+  height: 30px;
+  transform: scaleX(-1);
+  position: absolute;
+}
