@@ -1,52 +1,53 @@
 .main {
-        display: flex;
-        justify-content: center;
-        width: 1090px;
-        height: 3202px;
-        margin-top: 36px;
-        margin-bottom: 36px;
-        margin-left: 277px;
-        margin-right: 277px;
+    display: flex;
+    justify-content: center;
+    width: 1090px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 277px;
+    margin-right: 277px;
 }
-.js-games{
+
+.js-games {
     text-align: center;
-    
+
 }
-.main_lists{
+
+.main_lists {
     padding-bottom: 18px;
-   padding-top: 18px;
+    padding-top: 18px;
 }
-.RPS{
+
+.RPS {
     padding-bottom: 10px;
 }
 
-.rock{
+.rock {
     width: 60px;
     height: 60px;
     border-radius: 20px;
     background-color: black;
-    background-image: url('../images/stone 1.svg');
+    background-image: url('../images/stone.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
-.paper{
+
+.paper {
     width: 60px;
     height: 60px;
     border-radius: 20px;
     background-color: black;
-    background-image: url('../images/paper 1.svg');
+    background-image: url('../images/paper.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.scissors{
+.scissors {
     width: 60px;
     height: 60px;
     border-radius: 20px;
     background-color: black;
-    background-image: url('../images/scissors 1.svg');
+    background-image: url('../images/scissors.svg');
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
