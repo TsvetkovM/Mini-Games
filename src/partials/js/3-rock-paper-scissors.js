@@ -8,3 +8,11 @@ const rockPaperScissors = document.getElementById("3");
         <button class="paper" ></button>
         
      `);
+
+
+
+     function selectElement(){
+        return Math.floor(Math.random()* (max - min) + min)
+     }
+
+     console.log(selectElement(3));
