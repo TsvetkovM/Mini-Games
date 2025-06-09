@@ -1,13 +1,16 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const calculatorHTML = `
         <div class="calculator">
             <input type="number" id="num1" placeholder="Введіть число">
             <div class="button-container">
-                <button class="btn" data-op="+">+</button>
-                <button class="btn" data-op="-">-</button>
-                <button class="btn" data-op="*">*</button>
-                <button class="btn" data-op="/">÷</button>
+                <div class="row">
+                    <button class="btn" data-op="+">+</button>
+                    <button class="btn" data-op="*">*</button>
+                </div>
+                <div class="row">
+                    <button class="btn" data-op="-">-</button>
+                    <button class="btn" data-op="/">÷</button>
+                </div>
             </div>
             <input type="number" id="num2" placeholder="Введіть число">
             <button class="btn equals">=</button>
@@ -16,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
     document.body.insertAdjacentHTML("beforeend", calculatorHTML);
 });
+
 document.addEventListener("DOMContentLoaded", () => {
     let operation = "";
     const buttons = document.querySelectorAll(".btn[data-op]");
@@ -60,19 +64,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const styles = `
     .calculator {
+        gap: 20px;
+        display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
     .button-container {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .row {
+        display: flex;
         gap: 10px;
-        width: 120px;
+        justify-content: center;
     }
     .btn {
-        width: 55px;
-        height: 55px;
-        font-size: 20px;
+        width: 35px;
+        height: 30px;
+        font-size: 15px;
         cursor: pointer;
         background-color: #000000;
         color: #ffffff;
@@ -90,9 +100,14 @@ const styles = `
         font-weight: bold;
         margin-left: 10px;
     }
+    input {
+        background-color: #D7D7D7;
+        border: 1px solid #ccc;
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
 `;
-
-
 
 const styleTag = document.createElement("style");
 styleTag.innerHTML = styles;
