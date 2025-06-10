@@ -51,3 +51,43 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.h1-main {
+    margin-left: 550px;
+    width: 386px;
+    height: 29px;
+    font-family: "Montserrat Alternates";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5000px;
+    
+}
+
+.flexcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.line{
+    background-color: #000000;
+    width: 536px;
+    height: 2.5px;
+
+}
+
+.main-main{
+    height: 1350px;
+}
+.dark-theme{
+    background-color: #262e2e ;
+    color: #ffffff;
+}

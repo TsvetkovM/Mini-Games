@@ -1,72 +1,47 @@
-const gameContainerEl = document.querySelector(".js-games")
+const gameContainerEL = document.querySelector(".js-games")
 
 const games = [
-    {
+  {
     id: 1,
     name: 'Перевір в який рік ти народився',
-    category: 'numerical',
-    
-    },
-    {
+    class: "standart",
+
+  },
+  {
     id: 2,
     name: 'Вгадай число, яке загадав комп’ютер',
-    category: 'numerical',
-    
-    },
-    {
-    id: 3,
-    name: 'Камінь-Ножиці-Папір',
-    category: 'game',
-    
-    },
-    {
+    class: "standart"
+  },
+  {
     id: 4,
     name: 'Калькулятор',
-    category: 'numerical',
-    
-    },
-    {
+    class: "standart",
+  },
+  {
     id: 5,
     name: 'Калькулятор часу',
-    category: 'numerical',
-    
-    },
-    {
-    id: 6,
-    name: 'Google динозаврик',
-    category: 'game',
-    
-    },
-    {
+    class: "standart",
+  },
+  {
     id: 7,
     name: 'Футбол',
-    category: 'game',
-    
-    },
-    {
+    class: "standart",
+  },
+  {
     id: 8,
     name: 'Введіть 3 числа',
-    category: 'numerical',
-    
-    },
-    {
-    id: 9,
-    name: 'Наша команда',
-    category: 'acquaintance',
-    
-    },
-   
-    ];
-    
+    class: "standart",
+  },
+
+
+]
+
 const list = games.map((game) => {
-    return `
-    <hr>
-    <li id=${game.id} class = "main_lists">
-      <h2>${game.name}</h2>
-      <hr>
-    </li>`;
-  }).join("");
-  
-gameContainerEl.insertAdjacentHTML('beforeend', list);
+  return `<li class="reset-li ${game.class}" id=${game.id}>
+    <h2 class="flexcenter" name-main>${game.name}</h2>
+    </li>
+    <hr class="line">`
 
+}).join('')
 
+gameContainerEL.insertAdjacentHTML('beforeend', list)
